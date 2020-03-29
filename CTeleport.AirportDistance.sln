@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTeleport.AirportDistance.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTeleport.AirportDistance.Services", "CTeleport.AirportDistance.Services\CTeleport.AirportDistance.Services.csproj", "{C9226FD0-985A-4ABB-BEEB-18F2CFBC4A51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTeleport.AirportDistance.Tests", "CTeleport.AirportDistance.Tests\CTeleport.AirportDistance.Tests.csproj", "{863BE81F-76B1-47DF-9D04-43542E92BB56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CTeleport.AirportDistance.Tests", "CTeleport.AirportDistance.Tests\CTeleport.AirportDistance.Tests.csproj", "{863BE81F-76B1-47DF-9D04-43542E92BB56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DA511AF8-BDA2-4B4F-90B0-76F5E02E1B89}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
