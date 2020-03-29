@@ -19,7 +19,7 @@ namespace CTeleport.AirportDistance.Tests
             var mockRepo = new Mock<IAirportService>();
             mockRepo.Setup(repo => repo.CalculateDistance(It.IsAny<DistanceModel>())).ReturnsAsync(It.IsAny<double>);
 
-            _controller = new AirportController(mockRepo.Object);
+            _controller = new AirportController(new Lazy<IAirportService>(mockRepo.Object));
         }
 
         [Fact]
